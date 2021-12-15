@@ -1,0 +1,137 @@
+.login.login-1 .login-aside .aside-img {
+  min-height: 450px; }
+
+.login.login-1 .login-signin,
+.login.login-1 .login-signup,
+.login.login-1 .login-forgot {
+  display: none; }
+
+.login.login-1.login-signin-on .login-signup {
+  display: none; }
+
+.login.login-1.login-signin-on .login-signin {
+  display: block;
+  width: 100%;
+}
+
+.login.login-1.login-signin-on .login-forgot {
+  display: none; }
+
+.login.login-1.login-signup-on .login-signup {
+  display: block; }
+
+.login.login-1.login-signup-on .login-signin {
+  display: none; }
+
+.login.login-1.login-signup-on .login-forgot {
+  display: none; }
+
+.login.login-1.login-forgot-on .login-signup {
+  display: none; }
+
+.login.login-1.login-forgot-on .login-signin {
+  display: none; }
+
+.login.login-1.login-forgot-on .login-forgot {
+  display: block; }
+
+@media (min-width: 992px) {
+  .login.login-1 .login-aside {
+    width: 100%;
+    max-width: 600px;
+  }
+  /* .login.login-1 .login-content {
+    width: 100px;
+    max-width: 600px;
+  } */
+}
+
+@media (min-width: 992px) and (max-width: 1399.98px) {
+  .login.login-1 .login-aside {
+    width: 100%;
+    max-width: 450px; } }
+
+@media (max-width: 991.98px) {
+  .login.login-1 .login-content{
+    width: 100%;
+    max-width: 991px;
+  }
+  .login.login-1.login-signin-on .login-signin form{
+    margin-bottom: 170px !important;
+  }
+  .login.login-1 .login-content .login-form {
+    width: 100%;
+    max-width: 400px; } 
+  .logo-list{
+    left: 0 !important;
+  } 
+  
+  .logo-list ul li{
+    width: 16% !important;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .login.login-1 .aside-img {
+    min-height: 300px !important;
+    background-size: 400px; }
+  .login.login-1 .login-content .login-form {
+    width: 100%;
+    max-width: 100%;
+  }
+  .login.login-1.login-signin-on .login-signin form{
+    margin-bottom: 335px !important;
+  }
+  .logo-list{
+    left: 0 !important;
+  } 
+  .logo-list ul li{
+    width: 30% !important;
+  }
+}
+@media (max-width: 400px){
+  .login.login-1.login-signin-on .login-signin form{
+    margin-bottom: 420px !important;
+  }
+  .logo-list ul li{
+    width: 45% !important;
+  }
+}
+
+
+
+
+    /* My Custom Css */
+    
+.login.login-1.login-signin-on .login-signin form{
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto;
+
+}
+.logo-list {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+    .logo-list ul{
+      margin: 0;
+      padding: 0;
+      display: block;
+    }
+    .logo-list ul li{
+      display: inline-block;
+      list-style: none;
+      margin: 5px;
+      padding: 5px 10px;
+      width: 10%;
+      height: 70px;
+      line-height: 70px;
+      border-radius: 4px;
+      box-shadow: 2px 2px 2px rgba(0,0,0,0.1), -2px -2px 2px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+    .logo-list ul li img{
+      width: 100%;
+      /* transform: scale(1); */
+    }
